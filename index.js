@@ -3,10 +3,10 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const { connectdb } = require("./db");
 const stationRoutes = require("./routes/stationRoutes");
-const dspRoutes = require("./routes/dspRoutes");
-const spRoutes = require("./routes/spRoutes");
-const digRoutes = require("./routes/digRoutes");
-const igRoutes = require("./routes/igRoutes");
+const dspRoutes = require("./routes/DSPRoutes");
+const spRoutes = require("./routes/SPRoutes");
+const digRoutes = require("./routes/DIGRoutes");
+const igRoutes = require("./routes/IGRoutes");
 const locationRoutes = require("./routes/locationRoutes");
 const upload = require("./middleware/multerconfig");
 
