@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const igController = require("../controllers/igController");
+const igController = require("../controllers/IGController");
 
 // Create a new IG
 router.post("/", igController.createIGController);

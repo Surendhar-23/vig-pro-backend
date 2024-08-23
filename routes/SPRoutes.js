@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const spController = require("../controllers/spController");
+const spController = require("../controllers/SPController");
 
 // Create a new SP
 router.post("/", spController.createSPController);

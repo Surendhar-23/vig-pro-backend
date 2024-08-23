@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const digController = require("../controllers/digController");
+const digController = require("../controllers/DIGController");
 
 // Create a new DIG
 router.post("/", digController.createDIGController);

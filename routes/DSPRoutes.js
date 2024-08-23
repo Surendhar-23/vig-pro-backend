@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const dspController = require("../controllers/dspController");
+const dspController = require("../controllers/DSPController");
 
 // Create a new DSP
 router.post("/", dspController.createDSPController);
